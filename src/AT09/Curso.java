@@ -17,11 +17,11 @@ public abstract class Curso {
         return cargaHoraria;
     }
 
-    public void exibirDados () {
+    public void exibirDados() {
         System.out.println("Dados do curso");
-        System.out.println("Nome: "+nome);
-        System.out.println("Carga horária: "+cargaHoraria+"h");
+        System.out.println("Nome: " + nome);
+        System.out.println("Carga horária: " + cargaHoraria + "h");
     }
 
-    public abstract double calcularValor ();
+    public abstract double calcularValor();
 }
